@@ -92,8 +92,14 @@ a {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
+    background-color: #4D5AE5;
     color: #fff;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+        background-color: #404BBF;
+    }
 
 /*---------------- FEATURES------------------- */
 
@@ -118,12 +124,18 @@ a {
 
 /*---------------- TEAM ------------------- */
 
+.team {
+    background-color: #F4F4FD;
+}
+
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -150,6 +162,7 @@ a {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
@@ -187,4 +200,11 @@ a {
 
 .page-footer {
 background-color: #2e2f42;
+}
+
+.page-footer-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }

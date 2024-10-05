@@ -52,9 +52,7 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus
-.hero-btn:hover,
-.hero-btn:focus {
+.contacts-link:focus {
     color: #404bbf;
 }
 /*----------------Section Hero ------------------- */
@@ -83,7 +81,10 @@ a {
     cursor: pointer;
 }
 
-
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
 /*---------------- FEATURES------------------- */
 
 .features {
@@ -112,6 +113,10 @@ a {
 }
 
 .team-list {
+    background-color: #FFFFFF;
+    }
+
+.team-item {
     background-color: #FFFFFF;
     }
 
